@@ -3,7 +3,7 @@ trigger:
 
 variables:
   dockerRegistryServiceConnection: 'acr'
-  imageRepository: 'muiz3acr.azurecr.io/devops'
+  imageRepository: 'devops'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
